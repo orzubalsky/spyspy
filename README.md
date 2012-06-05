@@ -1,7 +1,7 @@
 ## spyspy ##
 
 at the moment, spyspy is simply an implementation of django-dynamic-scraper + scrapy.
-it let's you create scraper objects and scrapers that map work with django models.
+it let's you create scraper objects and scrapers that work with django models.
 the scrapers are used with the scrapy command-line interface to input data straight into the django db.
 
 ### Installation ###
