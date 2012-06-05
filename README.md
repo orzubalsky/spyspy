@@ -13,3 +13,10 @@ the scrapers are used with the scrapy command-line interface to insert data to t
 
 ### Running locally ###
 * $ ./bin/django runserver
+
+
+### Scraping ###
+
+* $ cd  <project_dir>/spyspy/apps/spy
+* $ ../../../bin/scrapy crawl <spider_name> -a id=<model_id> -a do_action=<yes|no>
+* do_action is a boolean that determines whether the scraped data in inserted into the db or not
