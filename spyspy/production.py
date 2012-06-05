@@ -1,0 +1,2 @@
+
+from spyspy.settings import *

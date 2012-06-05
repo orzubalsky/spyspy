@@ -1,0 +1,14 @@
+*.pyc
+*~
+local_settings.py
+.DS_Store
+
+# ignore buildout's workspace stuff:
+.installed.cfg
+bin/
+develop-eggs/
+eggs/
+parts/
+
+# ignore static files (for now):
+do-you-consider-yourself-a-candidate-for-space-travel/static/
